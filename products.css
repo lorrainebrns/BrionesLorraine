@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Cormorant+Garamond:wght@500&family=Lato:ital,wght@1,900&family=Luckiest+Guy&family=Quattrocento:wght@700&family=Roboto&display=swap'); 
+ a {
+    text-decoration: none;
+    }
+
+body{
+  background-color: #F0EFEC;
+}
+
+     *{
+        padding: Opx;
+        margin:0px;
+        box-sizing: border-box;
+    }
+
+       .navbar a:hover{
+        background: orange;
+    }  
+
+       .navbar a{
+        list-style-type: none;
+        display:block;
+        color: white;
+        cursor: pointer;
+        border-radius:10px;
+        transition: .5s; 
+        font-size: 20px; 
+        float: right;
+        color: white;
+        padding: 17px 20px;
+        font-family: 'Bitter', serif;
+    }
+
+    .navbody{
+      overflow: hidden;background-color: #5D4940; height: 60px;
+      border-bottom: 2px solid rgba(0,0,0,0.8);
+   }
+
+   .logo{
+      float: left;width: 75px; height: 60px; padding: 1px 8px;
+   }
+   .logo-p{
+      float: left; color: white; font-family: 'Luckiest Guy', cursive;font-weight: 500px; font-size: 25px; padding: 13px 20px; letter-spacing: 3px;
+      
+   }
+
+    .part-header h3{
+      text-align: center; font-size: 50px; letter-spacing: 2px; font-family: 'Luckiest Guy', cursive;
+      letter-spacing: 4px; color: white;
+      -webkit-text-stroke-width: 2.5px;
+      -webkit-text-stroke-color: #331809;
+   }
+
+   .part-header2 h3{
+    text-align: center; font-size: 50px; letter-spacing: 2px; font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 4px; color: white;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: #331809;
+ }
+
+     .hr {
+        border: 0;
+        height: 3px;
+        border-radius:20px;
+        background-color:#f1eeeb; 
+        width:20%;
+        margin:20px auto;
+
+     }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(68, 31, 12, 0.5);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #555;
+}
+
+/* Changes */
+.text-centered{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  width: 40vh;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.text-centered .justify-p{
+  text-align: justify;
+}
+
+
+.fs-26px{font-size: 26px;}
+.fs-24px{font-size: 24px;}
+.fs-22px{font-size: 22px;}
+.fs-20px{font-size: 20px;}
+.fs-19px{font-size: 19px;}
+.fs-18px{font-size: 18px;}
+.fs-17px{font-size: 17px;}
+.fs-16px{font-size: 16px;}
+.fs-15px{font-size: 15px;}
+.fs-14px{font-size: 14px;}
+
+.img-pos{
+  width:100%;
+  backface-visibility: hidden;
+}
+/* col = column | r = row */
+.col1r1{top: 57.25%;left: 2.77%;transform: translate(-2%, -50%);-ms-transform: translate(-2%, -50%);}
+.col2r1{top: 57.25%;left: 34.25%;transform: translate(-34%, -50%);-ms-transform: translate(-34%, -50%);}
+.col3r1{top: 57.25%;left: 65.55%;transform: translate(-65%, -50%);-ms-transform: translate(-65%, -50%);}
+.col4r1{top: 57.5%;right: 2%;transform: translate(-2%, -50%);-ms-transform: translate(-2%, -50%);}
+
+.col1r2{top: 178.5%;left: 2.77%;transform: translate(-2%, -150%);-ms-transform: translate(-2%, -150%);}
+.col2r2{top: 180%;left: 34.25%;transform: translate(-34%, -155%);-ms-transform: translate(-34%, -155%);}
+.col3r2{top: 177.5%;left: 65.55%;transform: translate(-65%, -150%);-ms-transform: translate(-65%, -150%);}
+.col4r2{top: 177%;right: 2%; transform: translate(-2%, -150%);-ms-transform: translate(-2%, -150%);}
+
+.col1r3{top: 309.5%;left: 2.77%;transform: translate(-2%, -255%);-ms-transform: translate(-2%, -255%);}
+.col2r3{top: 309.5%;left: 34.25%;transform: translate(-34%, -255%);-ms-transform: translate(-34%, -255%);}
+.col3r3{top: 309.5%;left: 65.55%;transform: translate(-65%, -255%);-ms-transform: translate(-65%, -255%);}
+.col4r3{top: 288%;right: 2%; transform: translate(-2%, -255%);-ms-transform: translate(-2%, -255%);}
+
+.col1r4{top: 370%;left: 2.77%;transform: translate(-2%, -315%);-ms-transform: translate(-2%, -315%);}
+.col2r4{top: 370%;left: 34.25%;transform: translate(-34%, -315%);-ms-transform: translate(-34%, -315%);}
+.col3r4{top: 370%;left: 65.55%;transform: translate(-65%, -315%);-ms-transform: translate(-65%, 315%);}
+.col4r4{top: 383.5%; right: 2.25%; transform: translate(-2%, -325%);-ms-transform: translate(-2%, -325%);}
+
+.col1r5{top: 488.5%;left: 3%;transform: translate(-2%, -416.5%);-ms-transform: translate(-2%, -416.5%);}
+.col2r5{top: 478.5%;left: 34.3%;transform: translate(-34%, -427.5%);-ms-transform: translate(-34%, -427.5%);}
+.col3r5{top: 525.25%;left: 65.55%;transform: translate(-65%, -414.5%);-ms-transform: translate(-65%, -414.5%);}
+.col4r5{top: 478.5%;right: 2%; transform: translate(-2%, -422.5%);-ms-transform: translate(-2%, -422.5%);}
+
+.text-centered p{
+  text-align: center;
+}
+
+.card:hover .img-pos {
+  opacity: 0.3;
+}
+
+.card:hover .text-centered {
+  opacity: 1;
+  visibility: visible;
+}
+
+.part-header{
+  background:#59260b;
+  padding:30px;
+  -webkit-box-shadow: 0px 10px 5px 5px rgba(51,24,9,1);
+  -moz-box-shadow: 0px 10px 5px 5px rgba(51,24,9,1);
+  box-shadow: 0px 10px 5px 5px rgba(51,24,9,1);
+}
+
+.part-header2{
+  background:#59260b;
+  padding:30px;
+  -webkit-box-shadow: 0px 0px 5px 10px rgba(51,24,9,1);
+  -moz-box-shadow: 0px 0px 5px 10px rgba(51,24,9,1);
+  box-shadow: 0px 0px 5px 10px rgba(51,24,9,1);
+}
+
+  p{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight:400;
+  }
+
+  .row h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-size:25px;
+  }
+
+  i{
+    font-size:20px;
+  }
